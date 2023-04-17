@@ -1,1 +1,241 @@
-/* Desenvolva sua estilização aqui ... */
+    html.dark-mode body {
+        background-color: var(--color-grey-0);
+    }
+
+    .main__header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header__title {
+        color: var(--color-grey-1);
+    }
+
+    html.dark-mode .header__title {
+        color: var(--color-grey-8);
+    }
+
+    .header__button {
+        width: 36px;
+        height: 36px;
+        background-color: var(--color-grey-8);
+        outline: none;
+        border: none;
+        border-radius: .3125rem;
+    }
+
+    html.dark-mode .header__button {
+        background-color: var(--color-grey-1);
+    }
+
+    .header__button i {
+        color: var(--color-grey-2);
+    }
+
+    html.dark-mode .header__button i {
+        color: var(--color-grey-3);
+    }
+
+    .filter-section {
+        margin-top: 4.0625rem;
+    }
+
+    .filter-section__title {
+        color: var(--color-grey-1);
+    }
+
+    html.dark-mode .filter-section__title {
+        color: var(--color-grey-4);
+    }
+
+    .filter-section__buttons-genre {
+        margin-top: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: flex-start;
+    }
+
+    .filter-section__button {
+        background-color: var(--color-grey-8);
+        border: 1px solid var(--color-grey-8);
+        height: 32px;
+        color: var(--color-grey-2);
+        padding: 0 .5rem;
+        border-radius: var(--radius-1);
+    }
+
+    html.dark-mode .filter-section__button {
+        background-color: var(--color-grey-1);
+        border: 1px solid var(--color-grey-1);
+        color: var(--color-grey-3);
+    }
+
+    .filter-section__button:focus {
+        background-color: var(--color-grey-1);
+        border: 1px solid var(--color-grey-1);
+        color: var(--color-grey-8);
+    }
+
+    html.dark-mode .filter-section__button:focus {
+        border: 1px solid var(--color-grey-9);
+        color: var(--color-grey-9);
+    }
+
+    .filter-section__range-filter {
+        margin-top: 3.75rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .range-filter__title {
+        color: var(--color-grey-1);
+    }
+
+    html.dark-mode .range-filter__title {
+        color: var(--color-grey-4);
+    }
+
+    .range-filter__max-value-span {
+        color: var(--color-grey-2);
+    }
+
+    html.dark-mode .range-filter__max-value-span {
+        color: var(--color-grey-3);
+    }
+
+    .range-filter__box {
+        width: 100%;
+        margin-top: 1.9375rem;
+    }
+
+    .section__albums {
+        margin-top: 3.75rem;
+    }
+
+    .section__albums-title {
+        color: var(--color-grey-1);
+    }
+
+    html.dark-mode .section__albums-title {
+        color: var(--color-grey-4);
+    }
+
+    .albums-list {
+        list-style: none;
+        margin-top: 1.375rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card__item-wrapper {
+        padding: 1.25rem 1rem;
+        background-color: var(--color-grey-8);
+    }
+
+    html.dark-mode .card__item-wrapper {
+        background-color: var(--color-grey-1);
+
+    }
+
+    .albums-card_item {
+        margin-top: 2.375rem;
+        border-radius: 4px 4px 0px 0px;
+        width: 308px;
+        overflow: hidden;
+    }
+
+    .card__item-img-box {
+        width: 308px;
+        height: 113px;
+        overflow: hidden;
+    }
+
+    .card__item-img-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    .card__item-band-year {
+        display: flex;
+        gap: 1.25rem;
+    }
+
+    .card__item-band {
+        color: var(--color-grey-2);
+    }
+
+    html.dark-mode .card__item-band {
+        color: var(--color-grey-3);
+    }
+
+    .card__item-year {
+        color: var(--color-grey-2);
+    }
+
+    html.dark-mode .card__item-year {
+        color: var(--color-grey-3);
+    }
+
+    .card__item-title {
+        margin-top: 1.25rem;
+        color: var(--color-grey-1);
+    }
+
+    html.dark-mode .card__item-title {
+        color: var(--color-grey-8);
+    }
+
+    .card__item-buy-price {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.6875rem;
+    }
+
+    .card__item-price {
+        color: var(--color-grey-1);
+    }
+
+    html.dark-mode .card__item-price {
+        color: var(--color-grey-8);
+    }
+
+    .card__item-button {
+        background-color: var(--color-grey-7);
+        border-radius: var(--radius-1);
+        width: 75px;
+        height: 32px;
+        padding: 0 .5rem;
+        border: 1px solid var(--color-grey-7);
+        color: var(--color-grey-2);
+    }
+    html.dark-mode .card__item-button {
+        background-color: var(--color-grey-2);
+        border: 1px solid var(--color-grey-2);
+        color: var(--color-grey-5);
+    }
+
+    button:hover{
+        background-color: var(--color-grey-1);
+        border: 1px solid var(--color-grey-1);
+        color: var(--color-grey-3);
+        transition: 0.4s;
+        cursor: pointer;
+    }
+    button:hover i{
+        color: var(--color-grey-4);
+    
+    }
+    html.dark-mode button:hover{
+        background-color: var(--color-grey-2);
+        border: 1px solid var(--color-grey-9);
+        color: var(--color-grey-9);
+        transition: 0.4s;
+    }
+    .hide{
+        display: none;
+    }

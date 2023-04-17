@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@600&display=swap");
 
-* {
+* { 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -20,7 +20,7 @@
   --color-grey-9: #fdfeff;
 
   --color-disable-fixed: #212529;
-  --color-actived-fixed: #2b2f33;
+  --color-active-fixed: #2b2f33;
   --color-white-fixed: #ffffff;
 
   --font-1: 1.75rem;
@@ -36,11 +36,72 @@ body {
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   background-color: var(--color-grey-9);
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .container {
   width: var(--container);
   max-width: 100%;
   padding: 0 1rem;
-  margin: 0 auto;
+  margin: 78px auto;
 }
+
+/* Font 1 */
+.font1-600 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Font 2 */
+.font2-600 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-decoration: none;
+
+}
+/* Font 2 */
+.font2-600-14 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: .875rem;
+  line-height: 1.5;
+  text-decoration: none;
+
+}
+/* Font 2 -500*/
+.font2-500{
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}  
+
+/* Font 3 */
+.font3-regular {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+
+}
+.font4-regular {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+
+}
+
